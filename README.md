@@ -64,23 +64,21 @@ All reminder scheduling, monitoring, and alert operations are managed by the LPC
 ---
 
 ⚙️ Working Principle
-
 Step 1: Configuration Mode (Switch-2 / EINT1)
 
 When Switch-2 is pressed:
 
-* Enter configuration mode
-* Edit RTC date and time
-* Configure medicine schedules
-* Store configuration data
-
+Enter configuration mode
+Edit RTC date and time
+Configure medicine schedules
+Store configuration data
 Step 2: Real-Time Monitoring
 
 The system continuously:
 
-* Reads RTC date and time
-* Displays current time on the LCD
-* Compares RTC time with stored schedules
+Reads RTC date and time
+Displays current time on the LCD
+Compares RTC time with stored schedules
 
 Step 3: Reminder Generation
 
