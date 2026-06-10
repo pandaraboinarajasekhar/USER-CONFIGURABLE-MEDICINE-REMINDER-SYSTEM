@@ -223,7 +223,6 @@ Shows the complete software execution flow including initialization, configurati
 |  Switch | Interrupt | Function |
 | --------| --------- | ---------------------------------- | 
 | Switch-1 | EINT0 | Stop Buzzer / Acknowledge Reminder |
-
 | Switch-2 | EINT1 | Enter Configuration Mode |
 
 ---
