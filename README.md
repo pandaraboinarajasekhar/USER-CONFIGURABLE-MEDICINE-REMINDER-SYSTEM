@@ -104,71 +104,132 @@ If the reminder is not acknowledged:
 ---
 
 🖼️ Project Images 
-📊 1. System Block Diagram 
-![Block Diagram](images/block_diagram.png) 
+📊 1. System Block Diagram
+
+![Block Diagram](images/block_diagram.png)
+
 This diagram illustrates the interconnection of LPC2148, RTC, keypad, switches, LCD, and buzzer.
+
 --- 
 ### 🔌 2. Hardware Setup
+
 ![Hardware Setup](images/hardware_setup.jpg)
 
 This image shows the complete hardware implementation of the Medicine Reminder System.
+
 ---
 ### 📟 3. Power ON Screen
+
 Displays the project welcome message after power-up.
+
 ![Power ON Screen](images/power_on_screen.jpg) 
 
 This screen is displayed immediately after system startup and confirms successful initialization of all peripherals.
+
 ---
 ### 📟 4. RTC Display Screen
+
 Displays the current RTC date and time.
+
 ![RTC Display](images/rtc_display.jpg)
+
 The LCD continuously displays the current date and time while monitoring medicine schedules.
+
 ---
 ### ⚙️ 5. Main Configuration Menu
+
 Displayed when Switch-2 (EINT1) is pressed.
+
 ![Configuration Menu](images/main_menu.jpg)
+
 The user can configure:
 * RTC Time
 * Medicine Schedule
 * Exit Configuration Mode
+  
  ---
+ 
 ### 🕒 6. RTC Time Edit
+
 RTC configuration screen.
+
 ![RTC Edit](images/rtc_edit.jpg)
+
 Allows modification of current RTC date and time values.
+
 ---
+
 ### 💊 7. Medicine Schedule Configuration
+
 Medicine timing setup screen.
+
 ![Medicine Schedule](images/medicine_edit.jpg) 
+
 The user enters medicine reminder timings using the keypad.
+
+
 ---
+
 ### 🚨 8. Medicine Reminder Alert
+
 Reminder notification screen.
+
 ![Medicine Reminder](images/time_for_medicine.jpg)
+
 Displayed when the current RTC time matches a stored medicine schedule.
+
 The LCD displays:
+
 text
+
 TIME FOR
+
 MEDICINE
+
 and activates the buzzer alert.
+
 ---
+
 ### 🔕 9. Medicine Taken Confirmation
+
 Reminder acknowledgment screen.
+
 ![Medicine Taken](images/medicine_taken.jpg)
+
 Displayed when the user confirms medicine intake by pressing Switch-1.
+
 --- 
+
 ### ⏳ 10. Reminder Timeout
+
 Reminder timeout screen.
-![Reminder Timeout](images/reminder_timeout.jpg) 
+
+![Reminder Timeout](images/reminder_timeout.jpg)
+
 If the reminder is not acknowledged within the timeout period, the buzzer stops automatically and the system returns to monitoring mode.
+
 ---
+
 ### 🔄 11. Software Flow Diagram
+
 ![Software Flow Diagram](images/flowchart.png)
+
 Shows the complete software execution flow including initialization, configuration, monitoring, reminder generation, acknowledgment, and timeout handling.
+
 --- 
-### 🔑 Switch Functions | Switch | Interrupt | Function | | -------- | --------- | ---------------------------------- | | Switch-1 | EINT0 | Stop Buzzer / Acknowledge Reminder | | Switch-2 | EINT1 | Enter Configuration Mode |
+
+### 🔑 Switch Functions
+
+|  Switch | Interrupt | Function |
+| --------| --------- | ---------------------------------- | 
+| Switch-1 | EINT0 | Stop Buzzer / Acknowledge Reminder |
+
+| Switch-2 | EINT1 | Enter Configuration Mode |
+
 ---
+
 ## 🧭 User Guide 
+
 1. Power ON the system.
 2. LCD displays current RTC time.
 3. Press Switch-2 to enter configuration mode. 4.
@@ -205,7 +266,10 @@ Pandaraboina Rajasekhar
 * Buzzer Alert Systems
 ---
 ### 📜 License 
+
 This project is developed for academic and educational purposes.
+
 You are free to use, modify, and enhance this project with proper credit to the author.
+
 --- 
 ⭐ If you found this project useful, don't forget to **Star** the repository!
