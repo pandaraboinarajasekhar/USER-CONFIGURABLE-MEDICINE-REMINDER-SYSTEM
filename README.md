@@ -1,30 +1,5 @@
 # 💊 USER CONFIGURABLE MEDICINE REMINDER SYSTEM
 
-# 💊 User Configurable Medicine Reminder System
-
-An embedded system based on the **LPC2148 ARM7 Microcontroller** and **RTC (Real-Time Clock)** that provides timely medicine reminders. The system allows users to configure medicine schedules and receive alerts through an LCD display and buzzer.
-
----
-
-## 📑 Table of Contents
-
-* [Project Overview](#-project-overview)
-* [Aim of the Project](#-aim-of-the-project)
-* [Features](#-features)
-* [Hardware Requirements](#-hardware-requirements)
-* [Software Requirements](#-software-requirements)
-* [System Architecture](#-system-architecture)
-* [Working Principle](#-working-principle)
-* [Project Images](#-project-images)
-* [Switch Functions](#-switch-functions)
-* [User Guide](#-user-guide)
-* [Applications](#-applications)
-* [Future Enhancements](#-future-enhancements)
-* [Developed By](#-developed-by)
-* [License](#-license)
-
----
-
 ## 📖 Project Overview
 
 The User Configurable Medicine Reminder System continuously monitors real-time clock data and compares it with user-defined medicine schedules. When a scheduled time is reached, the system alerts the user using a buzzer and LCD notification.
@@ -74,9 +49,9 @@ To design and develop a medicine reminder system that enables users to configure
 
 ---
 
-## 🏗️ System Architecture
+🏗️ System Architecture
 
-### System Block Diagram
+System Block Diagram
 
 ```text
 4×4 Matrix Keypad  ──►
