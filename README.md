@@ -48,27 +48,18 @@ To design and develop a medicine reminder system that enables users to configure
 * Flash Magic
 
 ---
-
-🏗️ System Architecture
-
-System Block Diagram
-
-```text
-4×4 Matrix Keypad  ──►
-                     │
-Switch-1 (EINT0) ───►│
-                     │
-Switch-2 (EINT1) ───►│
-                 LPC2148 ARM7
-                     │
-RTC Module ◄────────►│
-                     │
-LCD Display ◄────────┤
-                     │
-Buzzer ◄─────────────┘
-```
-
-The LPC2148 acts as the central controller and manages all scheduling, monitoring, user interaction, and alert generation.
+## 🏗️ System Architecture
+### System Block Diagram 
+![System Block Diagram](images/block_diagram.png) 
+The system consists of:
+* LPC2148 ARM7 Microcontroller
+* RTC Module
+* 4×4 Matrix Keypad
+* LCD Display
+* Buzzer
+* Switch-1 (EINT0)
+* Switch-2 (EINT1)
+All reminder scheduling, monitoring, and alert operations are managed by the LPC2148 microcontroller.
 
 ---
 
