@@ -92,7 +92,7 @@ The controller continuously:
 * Displays RTC information on LCD
 * Compares RTC time with stored medicine schedules
 
-### Step 3: Reminder Generation
+Step 3: Reminder Generation
 
 When the current RTC time matches a stored medicine schedule:
 
@@ -100,7 +100,7 @@ When the current RTC time matches a stored medicine schedule:
 * Buzzer generates periodic alerts
 * Reminder timer starts
 
-### Step 4: Acknowledgment (Switch-1 / EINT0)
+Step 4: Acknowledgment (Switch-1 / EINT0)
 
 When Switch-1 is pressed:
 
@@ -108,7 +108,7 @@ When Switch-1 is pressed:
 * Reminder is cleared
 * System returns to monitoring mode
 
-### Step 5: Automatic Timeout
+Step 5: Automatic Timeout
 
 If no acknowledgment is received:
 
@@ -118,9 +118,9 @@ If no acknowledgment is received:
 
 ---
 
-# 🖼️ Project Images
+🖼️ Project Images
 
-## 📊 1. System Block Diagram
+📊 1. System Block Diagram
 
 ![Block Diagram](images/block_diagram.png)
 
@@ -128,7 +128,7 @@ This diagram illustrates the interconnection of LPC2148, RTC, keypad, switches, 
 
 ---
 
-## 🔌 2. Hardware Setup
+🔌 2. Hardware Setup
 
 ![Hardware Setup](images/hardware_setup.jpg)
 
@@ -136,7 +136,7 @@ This image shows the complete hardware implementation of the Medicine Reminder S
 
 ---
 
-## 📟 3. Power ON Screen
+📟 3. Power ON Screen
 
 Displays the project welcome message after power-up.
 
@@ -146,7 +146,7 @@ This screen is displayed immediately after system startup and confirms successfu
 
 ---
 
-## 📟 4. RTC Display Screen
+📟 4. RTC Display Screen
 
 Displays the current RTC date and time.
 
@@ -156,7 +156,7 @@ The LCD continuously displays the current date and time while monitoring medicin
 
 ---
 
-## ⚙️ 5. Main Configuration Menu
+⚙️ 5. Main Configuration Menu
 
 Displayed when Switch-2 (EINT1) is pressed.
 
@@ -170,7 +170,7 @@ The user can configure:
 
 ---
 
-## 🕒 6. RTC Time Edit
+🕒 6. RTC Time Edit
 
 RTC configuration screen.
 
@@ -180,7 +180,7 @@ Allows modification of current RTC date and time values.
 
 ---
 
-## 💊 7. Medicine Schedule Configuration
+💊 7. Medicine Schedule Configuration
 
 Medicine timing setup screen.
 
@@ -190,7 +190,7 @@ The user enters medicine reminder timings using the keypad.
 
 ---
 
-## 🚨 8. Medicine Reminder Alert
+🚨 8. Medicine Reminder Alert
 
 Reminder notification screen.
 
@@ -209,7 +209,7 @@ and activates the buzzer alert.
 
 ---
 
-## 🔕 9. Medicine Taken Confirmation
+🔕 9. Medicine Taken Confirmation
 
 Reminder acknowledgment screen.
 
@@ -219,7 +219,7 @@ Displayed when the user confirms medicine intake by pressing Switch-1.
 
 ---
 
-## ⏳ 10. Reminder Timeout
+⏳ 10. Reminder Timeout
 
 Reminder timeout screen.
 
@@ -229,7 +229,7 @@ If the reminder is not acknowledged within the timeout period, the buzzer stops 
 
 ---
 
-## 🔄 11. Software Flow Diagram
+🔄 11. Software Flow Diagram
 
 ![Software Flow Diagram](images/flowchart.png)
 
@@ -237,7 +237,7 @@ Shows the complete software execution flow including initialization, configurati
 
 ---
 
-## 🔑 Switch Functions
+🔑 Switch Functions
 
 | Switch   | Interrupt | Function                           |
 | -------- | --------- | ---------------------------------- |
@@ -259,7 +259,7 @@ Shows the complete software execution flow including initialization, configurati
 
 ---
 
-## 🌍 Applications
+🌍 Applications
 
 * Home Healthcare Systems
 * Elderly Care Assistance
@@ -269,7 +269,7 @@ Shows the complete software execution flow including initialization, configurati
 
 ---
 
-## 🔮 Future Enhancements
+🔮 Future Enhancements
 
 * Multiple Medicine Scheduling
 * EEPROM-Based Schedule Storage
@@ -281,9 +281,9 @@ Shows the complete software execution flow including initialization, configurati
 
 ---
 
-## 👨‍💻 Developed By
+👨‍💻 Developed By
 
-### Manikanta Karthik Pantham
+Pandaraboina Rajasekhar
 
 * Embedded Systems Developer
 * LPC2148 ARM7 Programming
@@ -293,7 +293,7 @@ Shows the complete software execution flow including initialization, configurati
 
 ---
 
-## 📜 License
+📜 License
 
 This project is developed for academic and educational purposes.
 
