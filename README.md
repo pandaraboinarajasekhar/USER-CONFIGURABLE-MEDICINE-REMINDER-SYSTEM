@@ -103,142 +103,109 @@ If the reminder is not acknowledged:
 
 ---
 
-## 🖼️ Project Images
-
-### 1. System Block Diagram
-
-```markdown
-![Block Diagram](images/block_diagram.png)
-```
-
-### 2. Hardware Setup
-
-```markdown
+🖼️ Project Images 
+📊 1. System Block Diagram 
+![Block Diagram](images/block_diagram.png) 
+This diagram illustrates the interconnection of LPC2148, RTC, keypad, switches, LCD, and buzzer.
+--- 
+### 🔌 2. Hardware Setup
 ![Hardware Setup](images/hardware_setup.jpg)
-```
 
-### 3. Power ON Screen
+This image shows the complete hardware implementation of the Medicine Reminder System.
+---
+### 📟 3. Power ON Screen
+Displays the project welcome message after power-up.
+![Power ON Screen](images/power_on_screen.jpg) 
 
-```markdown
-![Power ON Screen](images/power_on_screen.jpg)
-```
-
-### 4. RTC Display Screen
-
-```markdown
+This screen is displayed immediately after system startup and confirms successful initialization of all peripherals.
+---
+### 📟 4. RTC Display Screen
+Displays the current RTC date and time.
 ![RTC Display](images/rtc_display.jpg)
-```
-
-### 5. Main Configuration Menu
-
-```markdown
+The LCD continuously displays the current date and time while monitoring medicine schedules.
+---
+### ⚙️ 5. Main Configuration Menu
+Displayed when Switch-2 (EINT1) is pressed.
 ![Configuration Menu](images/main_menu.jpg)
-```
-
-### 6. RTC Time Edit Screen
-
-```markdown
+The user can configure:
+* RTC Time
+* Medicine Schedule
+* Exit Configuration Mode
+ ---
+### 🕒 6. RTC Time Edit
+RTC configuration screen.
 ![RTC Edit](images/rtc_edit.jpg)
-```
-
-### 7. Medicine Schedule Configuration
-
-```markdown
-![Medicine Schedule](images/medicine_edit.jpg)
-```
-
-### 8. Medicine Reminder Alert
-
-```markdown
+Allows modification of current RTC date and time values.
+---
+### 💊 7. Medicine Schedule Configuration
+Medicine timing setup screen.
+![Medicine Schedule](images/medicine_edit.jpg) 
+The user enters medicine reminder timings using the keypad.
+---
+### 🚨 8. Medicine Reminder Alert
+Reminder notification screen.
 ![Medicine Reminder](images/time_for_medicine.jpg)
-```
-
-### 9. Medicine Taken Confirmation
-
-```markdown
+Displayed when the current RTC time matches a stored medicine schedule.
+The LCD displays:
+text
+TIME FOR
+MEDICINE
+and activates the buzzer alert.
+---
+### 🔕 9. Medicine Taken Confirmation
+Reminder acknowledgment screen.
 ![Medicine Taken](images/medicine_taken.jpg)
-```
-
-### 10. Reminder Timeout Screen
-
-```markdown
-![Reminder Timeout](images/reminder_timeout.jpg)
-```
-
-### 11. Software Flow Diagram
-
-```markdown
+Displayed when the user confirms medicine intake by pressing Switch-1.
+--- 
+### ⏳ 10. Reminder Timeout
+Reminder timeout screen.
+![Reminder Timeout](images/reminder_timeout.jpg) 
+If the reminder is not acknowledged within the timeout period, the buzzer stops automatically and the system returns to monitoring mode.
+---
+### 🔄 11. Software Flow Diagram
 ![Software Flow Diagram](images/flowchart.png)
-```
-
+Shows the complete software execution flow including initialization, configuration, monitoring, reminder generation, acknowledgment, and timeout handling.
+--- 
+### 🔑 Switch Functions | Switch | Interrupt | Function | | -------- | --------- | ---------------------------------- | | Switch-1 | EINT0 | Stop Buzzer / Acknowledge Reminder | | Switch-2 | EINT1 | Enter Configuration Mode |
 ---
-
-## 🔑 Switch Functions
-
-| Switch   | Interrupt | Function                           |
-| -------- | --------- | ---------------------------------- |
-| Switch-1 | EINT0     | Stop Buzzer / Acknowledge Reminder |
-| Switch-2 | EINT1     | Enter Configuration Mode           |
-
----
-
-## 🧭 User Guide
-
+## 🧭 User Guide 
 1. Power ON the system.
-2. LCD displays the current RTC time.
-3. Press Switch-2 to enter configuration mode.
-4. Configure RTC and medicine schedules.
-5. Wait for the scheduled reminder.
-6. Buzzer alerts when medicine time occurs.
-7. Press Switch-1 after taking medicine.
+2. LCD displays current RTC time.
+3. Press Switch-2 to enter configuration mode. 4.
+4. Configure RTC and medicine schedules. 5.
+5. Wait for the scheduled reminder. 6.
+6. Buzzer alerts when medicine time occurs. 7.
+7. Press Switch-1 after taking medicine. 8.
 8. System returns to monitoring mode.
-
----
-
-## 🌍 Applications
-
+ ---
+### 🌍 Applications 
 * Home Healthcare Systems
-* Elderly Care Assistance
-* Personal Medicine Management
-* Hospital Patient Reminder Systems
+* Elderly Care Assistance *
+* Personal Medicine Management *
+* Hospital Patient Reminder Systems *
 * Medical Monitoring Devices
-
----
-
-## 🔮 Future Enhancements
-
+  ---
+### 🔮 Future Enhancements
 * Multiple Medicine Scheduling
-* EEPROM-Based Schedule Storage
-* GSM SMS Alerts
-* Mobile App Integration
-* IoT Cloud Monitoring
-* Voice-Based Reminder System
+* EEPROM-Based Schedule Storage *
+* GSM SMS Alerts *
+* Mobile App Integration *
+* IoT Cloud Monitoring *
+* Voice-Based Reminder System *
 * Low-Power Operation
-
 ---
+### 👨‍💻 Developed By 
 
-## 👨‍💻 Developed By
+Pandaraboina Rajasekhar
 
-**Pandaraboina Rajasekhar**
-
-* Embedded Systems Developer
-* LPC2148 ARM7 Programming
-* RTC-Based Applications
-* LCD and Keypad Interfacing
+* Embedded Systems Developer *
+* LPC2148 ARM7 Programming *
+* RTC-Based Applications *
+* LCD & Keypad Interfacing *
 * Buzzer Alert Systems
-
 ---
-
-## 📜 License
-
+### 📜 License 
 This project is developed for academic and educational purposes.
-
 You are free to use, modify, and enhance this project with proper credit to the author.
-
----
-
-## ⭐ Support
-
-If you found this project useful, please consider giving the repository a **Star ⭐** on GitHub.
-
-
+--- 
+⭐ If you found this project useful, don't forget to **Star** the repository!
