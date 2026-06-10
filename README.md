@@ -62,34 +62,25 @@ The system consists of:
 All reminder scheduling, monitoring, and alert operations are managed by the LPC2148 microcontroller.
 
 ---
-
-⚙️ [](url)Working Principle
-Step 1: Configuration Mode (Switch-2 / EINT1)
-
+## ⚙️ Working Principle 
+The system operates using RTC-based medicine scheduling and interrupt-based user interaction.
+### Step 1: Configuration Mode (Switch-2 / EINT1)
 When Switch-2 is pressed:
+* Enter configuration mode
+* Edit RTC date and time
+* Configure medicine schedules
+* Store configuration data in memory
+### Step 2: Real-Time Monitoring 
+The controller continuously:
+* Reads current RTC date and time
+* Displays RTC information on LCD
+* Compares RTC time with stored medicine schedules
+### step 3: Reminder Generation
+When the current RTC time matches a stored medicine schedule: 
 
-Enter configuration mode
-Edit RTC date and time
-Configure medicine schedules
-Store configuration data
-Step 2: Real-Time Monitoring
-
-The system continuously:
-
-Reads RTC date and time
-Displays current time on the LCD
-Compares RTC time with stored schedules
-
-Step 3: Reminder Generation
-
-When the RTC time matches a stored schedule:
-
-* LCD displays:
-
-```text
-TIME FOR
-MEDICINE
-```
+* LCD displays **"TIME FOR MEDICINE
+* Buzzer generates periodic alerts
+* Reminder timer starts
 
 * Buzzer generates alerts
 * Reminder timer starts
