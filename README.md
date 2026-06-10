@@ -63,7 +63,7 @@ All reminder scheduling, monitoring, and alert operations are managed by the LPC
 
 ---
 
-⚙️ Working Principle
+⚙️ [](url)Working Principle
 Step 1: Configuration Mode (Switch-2 / EINT1)
 
 When Switch-2 is pressed:
