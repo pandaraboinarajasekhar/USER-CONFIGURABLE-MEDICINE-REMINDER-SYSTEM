@@ -92,7 +92,7 @@ The controller continuously:
 * Displays RTC information on LCD
 * Compares RTC time with stored medicine schedules
 
-Step 3: Reminder Generation
+Step 3: Reminder Generation3️⃣ Alert Generation 
 
 When the current RTC time matches a stored medicine schedule:
 
