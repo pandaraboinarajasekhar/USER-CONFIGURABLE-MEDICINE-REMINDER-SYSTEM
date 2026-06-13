@@ -134,7 +134,8 @@ This screen is displayed immediately after system startup and confirms successfu
 
 Displays the current RTC date and time.
 
-![RTC Display](images/rtc_display.jpg)
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/e44eaab0-fdae-4c5d-b496-dc21c7205493" />
+
 
 The LCD continuously displays the current date and time while monitoring medicine schedules.
 
@@ -143,7 +144,8 @@ The LCD continuously displays the current date and time while monitoring medicin
 
 Displayed when Switch-2 (EINT1) is pressed.
 
-![Configuration Menu](images/main_menu.jpg)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/88ea3c79-79d0-4610-8f86-2177008362bf" />
+
 
 The user can configure:
 * RTC Time
@@ -156,7 +158,8 @@ The user can configure:
 
 RTC configuration screen.
 
-![RTC Edit](images/rtc_edit.jpg)
+<img width="1672" height="940" alt="image" src="https://github.com/user-attachments/assets/859fff16-7c2b-4318-a9e4-fbde22b13bcd" />
+
 
 Allows modification of current RTC date and time values.
 
