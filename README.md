@@ -113,7 +113,8 @@ This diagram illustrates the interconnection of LPC2148, RTC, keypad, switches, 
 --- 
 ### 🔌 2. Hardware Setup
 
-![Hardware Setup](images/hardware_setup.jpg)
+<img width="1450" height="1085" alt="image" src="https://github.com/user-attachments/assets/220656f4-c2d0-4c6a-a361-9780d32d4ce8" />
+
 
 This image shows the complete hardware implementation of the Medicine Reminder System.
 
@@ -122,7 +123,8 @@ This image shows the complete hardware implementation of the Medicine Reminder S
 
 Displays the project welcome message after power-up.
 
-![Power ON Screen](images/power_on_screen.jpg) 
+<img width="1800" height="874" alt="image" src="https://github.com/user-attachments/assets/87a5fb3e-13b2-404e-aa84-6a612be15e0d" />
+ 
 
 This screen is displayed immediately after system startup and confirms successful initialization of all peripherals.
 
