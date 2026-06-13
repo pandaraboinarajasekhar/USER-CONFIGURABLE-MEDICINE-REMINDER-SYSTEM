@@ -183,6 +183,7 @@ The user enters medicine reminder timings using the keypad.
 
 Reminder notification screen.
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/392a5158-468d-453e-a09a-2ac98390658d" />
 
 
 Displayed when the current RTC time matches a stored medicine schedule.
@@ -214,7 +215,8 @@ Displayed when the user confirms medicine intake by pressing Switch-1.
 
 Reminder timeout screen.
 
-![Reminder Timeout](images/reminder_timeout.jpg)
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/2234e56b-eeb5-443e-a39d-02c11a5e72f2" />
+
 
 If the reminder is not acknowledged within the timeout period, the buzzer stops automatically and the system returns to monitoring mode.
 
@@ -222,7 +224,8 @@ If the reminder is not acknowledged within the timeout period, the buzzer stops 
 
 ### 🔄 11. Software Flow Diagram
 
-<img width="1450" height="1085" alt="image" src="https://github.com/user-attachments/assets/f6a9b6fe-7565-4ff9-9d12-98092d94eba2" />
+<img width="1450" height="1085" alt="image" src="https://github.com/user-attachments/assets/714601d8-5dcd-479d-a848-fd3906ca826f" />
+>
 
 
 Shows the complete software execution flow including initialization, configuration, monitoring, reminder generation, acknowledgment, and timeout handling.
