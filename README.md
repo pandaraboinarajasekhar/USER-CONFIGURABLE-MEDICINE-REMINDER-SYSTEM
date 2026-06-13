@@ -116,7 +116,8 @@ This diagram illustrates the interconnection of LPC2148, RTC, keypad, switches, 
 --- 
 ### 🔌 2. Hardware Setup
 
-<img width="1397" height="1126" alt="image" src="https://github.com/user-attachments/assets/4931dfe0-27f5-4617-a201-7c47f24ac8ff" />
+<img width="1396" height="1127" alt="image" src="https://github.com/user-attachments/assets/3ef946a9-a11e-420f-91fb-1fbc764c86a7" />
+
 
 
 
