@@ -50,7 +50,8 @@ To design and develop a medicine reminder system that enables users to configure
 ---
 ## 🏗️ System Architecture
  
-![System Block Diagram](images/block_diagram.png) 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/649d3382-2b28-4614-82be-d5295df77631" />
+ 
 The system consists of:
 * LPC2148 ARM7 Microcontroller
 * RTC Module
