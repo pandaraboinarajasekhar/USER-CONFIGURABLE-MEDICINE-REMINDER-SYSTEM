@@ -114,7 +114,8 @@ This diagram illustrates the interconnection of LPC2148, RTC, keypad, switches, 
 --- 
 ### 🔌 2. Hardware Setup
 
-<img width="1450" height="1085" alt="image" src="https://github.com/user-attachments/assets/220656f4-c2d0-4c6a-a361-9780d32d4ce8" />
+<img width="1397" height="1126" alt="image" src="https://github.com/user-attachments/assets/4931dfe0-27f5-4617-a201-7c47f24ac8ff" />
+
 
 
 This image shows the complete hardware implementation of the Medicine Reminder System.
@@ -218,7 +219,8 @@ If the reminder is not acknowledged within the timeout period, the buzzer stops 
 
 ### 🔄 11. Software Flow Diagram
 
-![Software Flow Diagram](images/flowchart.png)
+<img width="1450" height="1085" alt="image" src="https://github.com/user-attachments/assets/f6a9b6fe-7565-4ff9-9d12-98092d94eba2" />
+
 
 Shows the complete software execution flow including initialization, configuration, monitoring, reminder generation, acknowledgment, and timeout handling.
 
