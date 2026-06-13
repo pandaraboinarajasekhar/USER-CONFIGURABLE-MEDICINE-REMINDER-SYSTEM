@@ -135,7 +135,8 @@ This screen is displayed immediately after system startup and confirms successfu
 
 Displays the current RTC date and time.
 
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/e44eaab0-fdae-4c5d-b496-dc21c7205493" />
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/8ec24eba-08c9-4f94-8036-9fac5087f894" />
+
 
 
 The LCD continuously displays the current date and time while monitoring medicine schedules.
@@ -170,7 +171,8 @@ Allows modification of current RTC date and time values.
 
 Medicine timing setup screen.
 
-![Medicine Schedule](images/medicine_edit.jpg) 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/f4a83b2d-e323-4198-9364-b97f82d47994" />
+ 
 
 The user enters medicine reminder timings using the keypad.
 
@@ -181,7 +183,7 @@ The user enters medicine reminder timings using the keypad.
 
 Reminder notification screen.
 
-![Medicine Reminder](images/time_for_medicine.jpg)
+
 
 Displayed when the current RTC time matches a stored medicine schedule.
 
@@ -201,7 +203,8 @@ and activates the buzzer alert.
 
 Reminder acknowledgment screen.
 
-![Medicine Taken](images/medicine_taken.jpg)
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/de35ac2c-41d7-4e82-b7e9-7433164f7804" />
+
 
 Displayed when the user confirms medicine intake by pressing Switch-1.
 
