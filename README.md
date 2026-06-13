@@ -106,7 +106,8 @@ If the reminder is not acknowledged:
 🖼️ Project Images 
 📊 1. System Block Diagram
 
-![Block Diagram](images/block_diagram.png)
+<img width="1474" height="1067" alt="image" src="https://github.com/user-attachments/assets/d34eedb4-c158-4548-9347-8f35c8f25c9e" />
+
 
 This diagram illustrates the interconnection of LPC2148, RTC, keypad, switches, LCD, and buzzer.
 
