@@ -281,11 +281,6 @@ Pandaraboina Rajasekhar
 * LCD & Keypad Interfacing *
 * Buzzer Alert Systems
 ---
-### 📜 License 
+## 👨‍💻 Author
 
-This project is developed for academic and educational purposes.
-
-You are free to use, modify, and enhance this project with proper credit to the author.
-
---- 
-⭐ If you found this project useful, don't forget to **Star** the repository!
+**Rajasekhar Pandaraboina**
